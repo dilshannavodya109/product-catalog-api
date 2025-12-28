@@ -80,5 +80,3 @@ mvn org.springdoc:springdoc-openapi-maven-plugin:generate -Dspringdoc.apiDocsUrl
 - Add `application-test.yml` to explicitly control test DB settings (e.g., `ddl-auto:create-drop`).
 - Add healthchecks, Actuator, or Prometheus metrics if you want observability in Docker.
 - Consider MapStruct for mapping if mapper classes grow large.
-
-If you want, I can add a short `README` snippet to the repo root describing how to run tests in CI, or append a development checklist.
